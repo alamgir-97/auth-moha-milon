@@ -1,0 +1,82 @@
+.cta-section {
+    background: url(bunny.jpg) center/cover no-repeat;
+    position: relative;
+    overflow:hidden;
+    padding: 100px 30px;
+    margin-top: 100px;
+}
+
+.bacground-overlay {
+    background: linear-gradient(to right, rgb(66, 105, 75)0%, rgb(55, 125, 0.52)100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.cta-content {
+    background: url(bunny.jpg) center/cover no-repeat;
+    position:relative;
+    overflow:hidden;
+    padding: 100px 30px;
+    margin-top: 100px;
+}
+
+.yt-holder {position:relative;
+    overflow: hidden;
+    height:0;
+    padding-bottom: 56%;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4)
+}
+
+.yt-holder > iframe {
+    position: absolute;
+    width: 100;
+    height:0;    
+}
+
+#vid-modal-wrapper {
+    max-width: 850px;
+    position: fixed;
+    width: 10%;
+    height: 100%;
+    top: 15%;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+    
+
+    opacity: 8;
+    z-index:0;
+    transition: 1s ease;
+}
+
+
+span.vid-close {
+    display: block;
+    cursor: pointer;
+    position:absolute;
+    top: -20px;
+    right: -10px;
+    z-index: 3;
+    font-size: 24px;
+    background: #fff;
+    color:#8a8a8a;
+    padding: 4px 10px;
+    box-shadow: 0 1px 5px #000;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+
+span.vid-close:hover {
+    opacity: .8;
+}
+
+#vid-modal-wrapper.show {
+    width:100%;
+    opacity: 1;
+    z-index: 1;
+}

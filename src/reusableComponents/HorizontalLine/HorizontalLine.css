@@ -1,0 +1,9 @@
+
+.title::before, .title::after  {
+    content: '';
+    height: 4px;
+    width: 150px;
+    background-color: red;
+    display: block;
+    
+}
