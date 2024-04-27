@@ -1,7 +1,7 @@
 {
   "name": "react-project-template",
   "private": false,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^10.11.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
@@ -41,5 +42,13 @@
     "reusable-components",
     "reusable-style",
     "auth"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alamgir-97/auth-moha-milon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alamgir-97/auth-moha-milon/issues"
+  },
+  "homepage": "https://github.com/alamgir-97/auth-moha-milon#readme"
 }
