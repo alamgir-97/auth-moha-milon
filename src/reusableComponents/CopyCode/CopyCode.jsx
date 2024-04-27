@@ -1,4 +1,4 @@
-const CopyText = () => {
+const CopyCode = () => {
     const handleCopyText = () => {
         const codeToCopy = document.getElementById('codeToCopy').innerText;
         navigator.clipboard.writeText(codeToCopy)
@@ -25,4 +25,4 @@ const CopyText = () => {
     );
 };
 
-export default CopyText;
+export default CopyCode;
